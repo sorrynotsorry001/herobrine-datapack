@@ -12,3 +12,6 @@ give @s minecraft:flint_and_steel 2
 give @s tnt 128
 give @s ender_pearl 48
 give @p minecraft:player_head{display:{Name:"{\"text\":\"Herobrine\"}"},SkullOwner:"Herobrine"} 64
+scoreboard teams add ACTORS
+scoreboard teams option ACTORS nametagVisibility never
+scoreboard teams join ACTORS @s
